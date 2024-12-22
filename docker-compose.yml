@@ -1,0 +1,8 @@
+services:
+  python_work:
+    build:
+      context: ./python_work
+      dockerfile: Dockerfile
+    container_name: python_work
+    # ports:
+    #   - '8080:8080'
